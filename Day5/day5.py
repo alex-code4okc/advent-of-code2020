@@ -56,7 +56,6 @@ def result() -> int:
     ascending_bids = sorted(boarding_ids)
 
     lower_val = ascending_bids[0]
-    higher_val = ascending_bids[-1]
 
     accum = 0
     for i, seat in enumerate(ascending_bids):
